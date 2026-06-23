@@ -1,0 +1,13 @@
+---
+description: "Enforce conventional commit message format"
+alwaysApply: true
+---
+
+All commit messages must follow this format:
+  <type>: <short summary>
+
+Valid types: feat, fix, docs, test, refactor, chore
+Examples:
+  feat: add summarize_class function
+  fix: handle empty score list in calculate_grade
+  test: add edge cases for validate_score
