@@ -1,0 +1,10 @@
+---
+description: "Python style: type annotations, docstrings, no print debugging"
+alwaysApply: false
+globs: "**/*.py"
+---
+
+Always write Python code with:
+- Type annotations on all function signatures.
+- Docstrings on all public functions.
+- No print statements for debugging — use logging instead.
